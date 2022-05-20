@@ -1,6 +1,15 @@
-## Welcome to GitHub Pages
+## Twitch Data Analysis
 
-You can use the [editor on GitHub](https://github.com/LorenzoEscobar/lorenzo.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In this project, I formatted and analyzed a dataset of the Top 1000 Streamers on Twitch in 2020. I found my dataset on [kaggle] (https://www.kaggle.com/datasets/aayushmishra1512/twitchdata) From there, I created a SQL server on Google Cloud Platform and connected to it using Microsoft SQL Server Management Studio. After connecting it I used a simple SQL Query to create a database named 'twitch' 
+```
+CREATE DATABASE twitch;
+```
+
+From the Object Explorer in MSSQL, I selected the 'twitch' database and selected task, then imported a flat file. I then select the path to where I had downloaded the CSV and imported it. This automatically created a table with the necessary columns which I named 'topStreamers'. To make sure that everything worked correctly I used the following query to display the table.
+
+```
+select * from topStreamers		
+```
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
