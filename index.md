@@ -1,6 +1,6 @@
 ## Twitch Data Analysis
 
-In this project, I formatted and analyzed a dataset of the Top 1000 Streamers on Twitch in 2020. I found my dataset on [kaggle] (https://www.kaggle.com/datasets/aayushmishra1512/twitchdata) From there, I created a SQL server on Google Cloud Platform and connected to it using Microsoft SQL Server Management Studio. After connecting it I used a simple SQL Query to create a database named 'twitch' 
+In this project, I formatted and analyzed a dataset of the Top 1000 Streamers on Twitch in 2020. I found my dataset on [kaggle](https://www.kaggle.com/datasets/aayushmishra1512/twitchdata) From there, I created a SQL server on Google Cloud Platform and connected to it using Microsoft SQL Server Management Studio. After connecting it I used a simple SQL Query to create a database named 'twitch' 
 ```
 CREATE DATABASE twitch;
 ```
