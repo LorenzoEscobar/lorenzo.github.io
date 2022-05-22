@@ -1,5 +1,7 @@
 ## Twitch Data Analysis
 
+**If any of the screenshots are difficult to see or blurry, right click and open in a new tab!**
+
 In this project, I formatted and analyzed a dataset of the Top 1000 Streamers on Twitch in 2020. I found my dataset on [kaggle](https://www.kaggle.com/datasets/aayushmishra1512/twitchdata) Then from there, I created a SQL server on Google Cloud Platform and connected to it using Microsoft SQL Server Management Studio. 
 
 ![ref1](https://user-images.githubusercontent.com/59485356/169712274-6f9f2792-8b23-44db-a908-282d8effa8eb.png)
@@ -70,13 +72,15 @@ order by Amount desc;
 
 ![ref6](https://user-images.githubusercontent.com/59485356/169713522-ddb72699-ebca-47f2-b691-1a44bcb4d423.png)
 
-After spending some time using SQL, I wanted to gain more experience using different tools often used by data scientsts. I researched and read that Python with pandas and matplotlib were very commonly used. Juptyer Notebooks was also a commonly used tool as well, and to incorporate all of these together I used my preferred IDE of choice, VS Code. But to make my SQL Server not go to waste I went one step further and connected to that from python.
+After spending some time using SQL, I wanted to gain more experience using different tools often used by data scientsts. I researched and read that Python with pandas and matplotlib were very commonly used. Juptyer Notebooks was also a commonly used tool as well, and to incorporate all of these together I used my preferred IDE of choice, VS Code. But to make my SQL Server not go to waste I went one step further and connected to that from python. For that I used a module called pyodbc that allows connection to the database.
 
 
 
+![ref7](https://user-images.githubusercontent.com/59485356/169714055-33d03da3-8327-408e-ac5a-a78836b7d886.png)
 
+From there I could query SQL commands from python, but I wanted to use pandas dataframes to mess with the data. So I selected all of the table and turned it into a dataframe using pandas. I also commented a way to turn the table back into a csv and place the file on your desktop as well as read the CSV from the desktop. I thought this would be good if the server had lots of changing data.
 
-
+![ref8](https://user-images.githubusercontent.com/59485356/169714585-398f08dd-8ce8-492c-94be-517a7ec70cc5.png)
 
 
 ### Markdown
