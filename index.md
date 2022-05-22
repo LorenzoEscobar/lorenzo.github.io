@@ -70,6 +70,8 @@ order by Amount desc;
 
 ![ref6](https://user-images.githubusercontent.com/59485356/169713522-ddb72699-ebca-47f2-b691-1a44bcb4d423.png)
 
+After spending some time using SQL, I wanted to gain more experience using different tools often used by data scientsts. I researched and read that Python with pandas and matplotlib were very commonly used. Juptyer Notebooks was also a commonly used tool as well, and to incorporate all of these together I used my preferred IDE of choice, VS Code. But to make my SQL Server not go to waste I went one step further and connected to that from python.
+
 
 
 
