@@ -159,6 +159,11 @@ I made another dashboard that sorted Twitch Followers per language as well.
 - Spanish streamers have the 2nd highest follower amount.
 
 
+
 ### Contact
+Here is a zip file of the code and images used in this project! [TwitchAnalysis.zip](https://github.com/LorenzoEscobar/lorenzoescobar.github.io/files/8757896/TwitchAnalysis.zip)
+
 If you have any questions about the project contact me at LE.LorenzoEscobar@gmail.com
+
+
 
