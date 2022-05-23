@@ -131,10 +131,21 @@ plt.show()
 
 ![piechart](https://user-images.githubusercontent.com/59485356/169876533-0cf75190-57ea-49a9-b3ca-db8c9d7754ed.png)
 
+The last tool for this project I wanted to use was Tableau, I downloaded the software and found it easy to quickly connect my SQL server to the program.
 
+![ref13](https://user-images.githubusercontent.com/59485356/169878266-179aaa86-fbd8-4697-abfb-6d892a443aab.png)
 
+I found Tableau to be very intuitive and easy to use. I liked how my tables attributes showed up on the left side and every setting was easy to change with just dragging and dropping.
 
+![ref14](https://user-images.githubusercontent.com/59485356/169878789-e9fa340e-cc32-4e00-909a-d1fd13f562f0.png)
 
+I quickly made a dashboard showing the partnered mature english streamers with the most average viewers. There was also filters on the right so it was easy to change the chart completely if needed.
+
+![Dashboard 1](https://user-images.githubusercontent.com/59485356/169879098-0e446e21-cb7f-43e4-b53a-f4ccad00cb78.png)
+
+I made another dashboard that sorted Twitch Followers per language as well.
+
+![Dashboard 2](https://user-images.githubusercontent.com/59485356/169880307-853049a5-8076-4760-81e0-df6ea913ede3.png)
 
 
 ### Markdown
