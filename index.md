@@ -82,7 +82,7 @@ From there I could query SQL commands from python, but I wanted to use pandas da
 
 ![ref8](https://user-images.githubusercontent.com/59485356/169714585-398f08dd-8ce8-492c-94be-517a7ec70cc5.png)
 
-I found pandas is useful for finding things about a dataset quickly, here I found the mean and the range for Followers. I also found I can get the percentages for each language streamed. If you refer to the SQL query I made earlier about languages you will see that it is accurate. I tried checking percentages for some other catagories such as Mature and Partnered.
+I found pandas is useful for finding things about a dataset quickly, here I found the mean and the range for Followers. I also found I can get the percentages for each language streamed. If you refer to the SQL query I made earlier about languages you will see that it is accurate. I tried checking percentages for some other categories such as Mature and Partnered.
  
 
 ![ref9](https://user-images.githubusercontent.com/59485356/169737355-0a9c6ed7-a4d1-4f2a-8733-a1314d51b350.png)
@@ -94,6 +94,45 @@ I found pandas is useful for finding things about a dataset quickly, here I foun
 
 
 ![ref11](https://user-images.githubusercontent.com/59485356/169737522-ef7e19ee-fa3d-4942-b35c-5ee1f8f05eaf.png)
+
+
+I thought it would be interesting to see the percentages of the languages in a chart. So I used matplotlib, and counted each lanaguage and put it into a pie chart. I used optional parameters such as `explode` to make the smaller values easier to see. I also used `autopct` to round the percentages up in the chart. 
+
+```
+#language pie chart
+English         =df.loc[df['Language'] == 'English'].count()[0]   
+Korean          =df.loc[df['Language'] == 'Korean'].count()[0]
+Russian         =df.loc[df['Language'] == 'Russian'].count()[0]
+Spanish         =df.loc[df['Language'] == 'Spanish'].count()[0]          
+French          =df.loc[df['Language'] == 'French'].count()[0]
+Portuguese      =df.loc[df['Language'] == 'Portuguese'].count()[0]
+German          =df.loc[df['Language'] == 'German'].count()[0]
+Chinese         =df.loc[df['Language'] == 'Chinese'].count()[0]
+Turkish         =df.loc[df['Language'] == 'Turkish'].count()[0]
+Italian         =df.loc[df['Language'] == 'Italian'].count()[0]         
+Polish          =df.loc[df['Language'] == 'Polish'].count()[0]
+Thai            =df.loc[df['Language'] == 'Thai'].count()[0]
+Japanese        =df.loc[df['Language'] == 'Japanese'].count()[0]
+#Other
+Other  =df.loc[df['Language'] == 'Other'].count()[0] + df.loc[df['Language'] == 'Czech'].count()[0]   #adds all "Other" languages to other because they are less than 10
++df.loc[df['Language'] == 'Greek'].count()[0] + df.loc[df['Language'] == 'Arabic'].count()[0]  
++df.loc[df['Language'] == 'Hungarian'].count()[0] + df.loc[df['Language'] == 'Slovak'].count()[0]  
++df.loc[df['Language'] == 'Swedish'].count()[0] + df.loc[df['Language'] == 'Finnish'].count()[0]  
+
+
+labels =['English','Korean','Russian','Spanish','French','Portuguese','German','Chinese','Turkish','Italian','Polish','Thai','Japanese','Other']
+explode =(0,0,0,0,0,0,0,0,0,0,.5,.5,.5,.5) #explode distances, to make the smaller values easier to see
+
+plt.pie([English,Korean,Russian,Spanish,French,Portuguese,German,Chinese,Turkish,Italian,Polish,Thai,Japanese,Other],labels=labels,autopct ='%.01f %%',pctdistance= .8,explode = explode) #auto pct rounded percentage
+plt.show()   
+```
+
+
+
+![piechart](https://user-images.githubusercontent.com/59485356/169876533-0cf75190-57ea-49a9-b3ca-db8c9d7754ed.png)
+
+
+
 
 
 
