@@ -82,6 +82,21 @@ From there I could query SQL commands from python, but I wanted to use pandas da
 
 ![ref8](https://user-images.githubusercontent.com/59485356/169714585-398f08dd-8ce8-492c-94be-517a7ec70cc5.png)
 
+I found pandas is useful for finding things about a dataset quickly, here I found the mean and the range for Followers. I also found I can get the percentages for each language streamed. If you refer to the SQL query I made earlier about languages you will see that it is accurate. I tried checking percentages for some other catagories such as Mature and Partnered.
+ 
+
+![ref9](https://user-images.githubusercontent.com/59485356/169737355-0a9c6ed7-a4d1-4f2a-8733-a1314d51b350.png)
+
+
+
+![ref10](https://user-images.githubusercontent.com/59485356/169737404-ed4901f4-69e4-470a-a1b4-23714657198f.png)
+
+
+
+![ref11](https://user-images.githubusercontent.com/59485356/169737522-ef7e19ee-fa3d-4942-b35c-5ee1f8f05eaf.png)
+
+
+
 
 ### Markdown
 
