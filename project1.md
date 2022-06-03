@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Project 1"
+filename: project1
+---
+
 ## Twitch Data Analysis
 
 **If any of the screenshots are difficult to see or blurry, right click and open in a new tab!**
